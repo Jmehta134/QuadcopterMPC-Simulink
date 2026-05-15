@@ -7,12 +7,12 @@ Quadcopter Waypoint Navigation via Model Predictive Control (MPC).
 
 <p align="center">
   <img src="Media/waypoint_navigation1.gif" width="70%">
-  <figcaption>3D Cubical Edge-Tracking (.gif)</figcaption>
+  <figcaption>3D Cubical Edge-Tracking</figcaption>
 </p>
 
 <p align="center">
   <img src="Media/waypoint_navigation2.gif" width="70%">
-  <figcaption>Helical Climb (.gif)</figcaption>
+  <figcaption>Helical Climb</figcaption>
 </p>
 
 ## Overview
