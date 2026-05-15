@@ -28,15 +28,15 @@ The system maps standard X, Y, Z coordinates into a full 12-state reference vect
   * *Lissajous Figure-Tracking*
 * **Real-Time 3D Visualization:** Integrates with Simulink's UAV Animation tools to visualize the flight path and attitude adjustments in real-time.
 <p align="center">
-  <img src="Media/waypoint_navigation1.mp4" width="75%" alt="Project Hero Image">
+  <img src="Media/waypoint_navigation1.mp4" width="75%">
   <figcaption>Zero-velocity arrival and overshoot suppression at sharp corners.</figcaption>
 </p>
 <p align="center">
-  <img src="Media/waypoint_navigation2.mp4" width="75%" alt="Project Hero Image">
+  <img src="Media/waypoint_navigation2.mp4" width="75%">
   <figcaption>Continuous curvature tracking during a steady altitude climb.</figcaption>
 </p>
 <p align="center">
-  <img src="Media/waypoint_navigation3.mp4" width="75%" alt="Project Hero Image">
+  <img src="Media/waypoint_navigation3.mp4" width="75%">
   <figcaption>Tracking a 3D Lissajous curve</figcaption>
 </p>
 * **Modular Plant Dynamics:** Physics are decoupled into independent Translational and Rotational subsystems utilizing small-angle approximations.
@@ -44,7 +44,7 @@ The system maps standard X, Y, Z coordinates into a full 12-state reference vect
 ## System Architecture
 <p align="center">
   <img src="Media/model.png" width="75%" alt="Project Hero Image">
-  <figcaption>Simulink model od MPC Quadcopter Controller.</figcaption>
+  <figcaption>Simulink model MPC Quadcopter Controller.</figcaption>
 </p>
 The Simulink model is driven by four primary custom MATLAB Function blocks:
 1. `Waypoint_Logic_Engine`: Calculates 3D Euclidean error and triggers the next target upon entering a 0.3m arrival threshold.
