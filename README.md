@@ -6,10 +6,10 @@
 Quadcopter Waypoint Navigation via Model Predictive Control (MPC).
 
 ![Navigation](./media/waypoint_navigation1.gif)
-*3D Cubical Edge-Tracking Positional Error and simulation*
+*3D Cubical Edge-Tracking; Positional Error and simulation*
 
 ![Navigation](./media/waypoint_navigation2.gif)
-*Helical ClimbPositional Error and simulation*
+*Helical Climb; Positional Error and simulation*
 
 ## Overview
 This repository contains a high-fidelity 6 Degrees of Freedom (6-DOF) quadcopter simulation built in MATLAB and Simulink. The core of the project is a tightly tuned Model Predictive Controller (MPC) designed to navigate a linearized drone plant through complex 3D environments. 
