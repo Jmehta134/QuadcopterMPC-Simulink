@@ -5,15 +5,11 @@
 
 Quadcopter Waypoint Navigation via Model Predictive Control (MPC).
 
-<p align="center">
-  <img src="media/waypoint_navigation1.gif" width="70%">
-  <figcaption>3D Cubical Edge-Tracking</figcaption>
-</p>
+![Navigation](./media/waypoint_navigation1.gif)
+*3D Cubical Edge-Tracking Positional Error and simulation*
 
-<p align="center">
-  <img src="media/waypoint_navigation2.gif" width="70%">
-  <figcaption>Helical Climb</figcaption>
-</p>
+![Navigation](./media/waypoint_navigation2.gif)
+*Helical ClimbPositional Error and simulation*
 
 ## Overview
 This repository contains a high-fidelity 6 Degrees of Freedom (6-DOF) quadcopter simulation built in MATLAB and Simulink. The core of the project is a tightly tuned Model Predictive Controller (MPC) designed to navigate a linearized drone plant through complex 3D environments. 
@@ -30,10 +26,9 @@ The system maps standard X, Y, Z coordinates into a full 12-state reference vect
 * **Modular Plant Dynamics:** Physics are decoupled into independent Translational and Rotational subsystems utilizing small-angle approximations.
 
 ## System Architecture
-<p align="center">
-  <img src="media/model.png" width="75%" alt="Project Hero Image">
-  <figcaption>Simulink model MPC Quadcopter Controller.</figcaption>
-</p>
+![Navigation](./media/model.png)
+*Simulink model MPC Quadcopter Controller.*
+
 The Simulink model is driven by four primary custom MATLAB Function blocks:
 1. `Waypoint_Logic_Engine`: Calculates 3D Euclidean error and triggers the next target upon entering a 0.3m arrival threshold.
 2. `State_Reference_Formatter`: Pads the 3D position target into a 12x1 state vector, commanding zero angular and linear velocities for stable hovering.
